@@ -6,7 +6,7 @@ require 'pry'
 def directors_totals(nds)
   result = {
   }
-  
+  binding.pry
   directors_index = 0 
   while directors_index < directors_database.length do
     movies_index = 0
